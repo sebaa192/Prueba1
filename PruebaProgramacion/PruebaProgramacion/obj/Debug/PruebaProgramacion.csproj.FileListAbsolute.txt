@@ -5,3 +5,10 @@ C:\Users\Sbach\Desktop\Taller de Programacion\PruebaProgramacion\PruebaProgramac
 C:\Users\Sbach\Desktop\Taller de Programacion\PruebaProgramacion\PruebaProgramacion\obj\Debug\PruebaProgramacion.csproj.CoreCompileInputs.cache
 C:\Users\Sbach\Desktop\Taller de Programacion\PruebaProgramacion\PruebaProgramacion\obj\Debug\PruebaProgramacion.exe
 C:\Users\Sbach\Desktop\Taller de Programacion\PruebaProgramacion\PruebaProgramacion\obj\Debug\PruebaProgramacion.pdb
+C:\Users\Sbach\Desktop\nuevo\PruebaProgramacion\PruebaProgramacion\bin\Debug\PruebaProgramacion.exe.config
+C:\Users\Sbach\Desktop\nuevo\PruebaProgramacion\PruebaProgramacion\bin\Debug\PruebaProgramacion.exe
+C:\Users\Sbach\Desktop\nuevo\PruebaProgramacion\PruebaProgramacion\bin\Debug\PruebaProgramacion.pdb
+C:\Users\Sbach\Desktop\nuevo\PruebaProgramacion\PruebaProgramacion\obj\Debug\PruebaProgramacion.csprojAssemblyReference.cache
+C:\Users\Sbach\Desktop\nuevo\PruebaProgramacion\PruebaProgramacion\obj\Debug\PruebaProgramacion.csproj.CoreCompileInputs.cache
+C:\Users\Sbach\Desktop\nuevo\PruebaProgramacion\PruebaProgramacion\obj\Debug\PruebaProgramacion.exe
+C:\Users\Sbach\Desktop\nuevo\PruebaProgramacion\PruebaProgramacion\obj\Debug\PruebaProgramacion.pdb

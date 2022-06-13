@@ -16,62 +16,102 @@ namespace PruebaProgramacion
             int numero1 = 0;
             int numero2 = 0;
             int numero3 = 0;
-
-           
-            try
+            string excepcion;
+            do
             {
-                Console.WriteLine("INGRESA 3 NUMEROSn POSITIVOS");
+                try
+                {
+                    Console.WriteLine("INGRESA 3 NUMEROS POSITIVOS");
 
-                Console.WriteLine("Ingresa el Primer n° :");
-                numero1 = int.Parse(Console.ReadLine());
-                Console.WriteLine("Ingresa el Segundo n° :");
-                numero2 = int.Parse(Console.ReadLine());
-                Console.WriteLine("Ingresa el Tercer n° :");
-                numero3 = int.Parse(Console.ReadLine());
-                
-            }
-            catch (Exception e)
-            {
+                    Console.WriteLine("Ingresa el Primer n° :");
+                    numero1 = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Ingresa el Segundo n° :");
+                    numero2 = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Ingresa el Tercer n° :");
+                    numero3 = int.Parse(Console.ReadLine());
 
-                Console.WriteLine($"La opcion Ingresada no es valida {e.Message}");
-            }
+                }
+                catch (Exception e)
+                {
 
+                    Console.WriteLine($"La opcion Ingresada no es valida {e.Message}");
+                }
+
+            } while (numero1 < 0 || numero2 < 0 || numero3 < 0 );
+
+            c = NumeroMayor(numero1, numero2, numero3);
+
+            a = NumerMenor(numero1, numero2, numero3);
+
+            Console.ReadLine();
+            Console.Clear();
+
+            DiferenciaVariables(numero1, numero2, numero3);
+
+            Console.ReadLine();
+            Console.Clear();
+
+            NumerosPares(a, c);
+
+            Console.ReadLine();
+            Console.Clear();
+
+            NumerosImpares(c, a);
+
+            Console.WriteLine("AQUI TERMINA EL PROGRAMA");
+              
+            Console.ReadKey();
+
+        }
+
+        public static int NumeroMayor(int a, int b, int c)
+        {
+            int res = 0;
             Console.WriteLine("\nNUMERO MAYOR");
-            if (numero1 > numero2 && numero1 > numero3) 
+            if (a > b && a > c)
             {
-                c = numero1;
-                Console.WriteLine($"El mayor es : {numero1} ");
+                res = a;
+                Console.WriteLine($"El mayor es : {a} ");
             }
-            else if (numero2 > numero1 && numero2 > numero3)
+            else if (b > a && b > c)
             {
-                c = numero2; 
-                Console.WriteLine($"El mayor es : {numero2} ");
-            }
-            else
-            {
-                c = numero3;
-                Console.WriteLine($"El mayor es : {numero3} ");
-            }
-
-
-            Console.WriteLine("\nNUMERO MENOR ");
-
-            if (numero1 < numero2 && numero1 < numero3)
-            {
-                a = numero1;
-                Console.WriteLine($"El Menor es : {numero1} ");
-            }
-            else if (numero2 < numero1 && numero2 < numero3)
-            {
-                a = numero2;
-                Console.WriteLine($"El Menor es : {numero2} ");
+                res = b;
+                Console.WriteLine($"El mayor es : {b} ");
             }
             else
             {
-                a = numero3;
-                Console.WriteLine($"El Menor es : {numero3} ");
+                res = c;
+                Console.WriteLine($"El mayor es : {c} ");
             }
 
+            return res;
+
+        }
+        public static int NumerMenor(int a, int b, int c)
+        {
+            int res = 0;
+            Console.WriteLine("\nNUMERO MAYOR");
+            if (a < b && a < c)
+            {
+                res = a;
+                Console.WriteLine($"El Menor es : {a} ");
+            }
+            else if (b < a && b < c)
+            {
+                res = b;
+                Console.WriteLine($"El Menor es : {b} ");
+            }
+            else
+            {
+                res = c;
+                Console.WriteLine($"El Mneor es : {c} ");
+            }
+
+            return res;
+
+        }
+        public static void DiferenciaVariables(int a, int b, int c)
+        {
             Console.WriteLine("\nDiferencias o rangos existentes entre variables");
 
             int resultado = 0;
@@ -83,46 +123,45 @@ namespace PruebaProgramacion
             switch (resultado)
             {
                 case 1:
-                    Console.WriteLine("Resultado pertenece al mes de: Enero");
+                    Console.WriteLine("Resultado pertenece al mes de: Enero\n");
                     break;
                 case 2:
-                    Console.WriteLine("Resultado pertenece al mes de: Febrero");
+                    Console.WriteLine("Resultado pertenece al mes de: Febrero\n");
                     break;
                 case 3:
-                    Console.WriteLine("Resultado pertenece al mes de: Marzo");
+                    Console.WriteLine("Resultado pertenece al mes de: Marzo\n");
                     break;
                 case 4:
-                    Console.WriteLine("Resultado pertenece al mes de: Abril");
+                    Console.WriteLine("Resultado pertenece al mes de: Abril\n");
                     break;
                 case 5:
-                    Console.WriteLine("Resultado pertenece al mes de: Mayo");
+                    Console.WriteLine("Resultado pertenece al mes de: Mayo\n");
                     break;
                 case 6:
-                    Console.WriteLine("Resultado pertenece al mes de: Junio");
+                    Console.WriteLine("Resultado pertenece al mes de: Junio\n");
                     break;
                 case 7:
-                    Console.WriteLine("Resultado pertenece al mes de: Julio");
+                    Console.WriteLine("Resultado pertenece al mes de: Julio\n");
                     break;
                 case 8:
-                    Console.WriteLine("Resultado pertenece al mes de: Agosto");
+                    Console.WriteLine("Resultado pertenece al mes de: Agosto\n");
                     break;
                 case 9:
-                    Console.WriteLine("Resultado pertenece al mes de: Septiembre");
+                    Console.WriteLine("Resultado pertenece al mes de: Septiembre\n");
                     break;
                 case 10:
-                    Console.WriteLine("Resultado pertenece al mes de: Octubre");
+                    Console.WriteLine("Resultado pertenece al mes de: Octubre\n");
                     break;
                 case 11:
-                    Console.WriteLine("Resultado pertenece al mes de: Noviembre");
+                    Console.WriteLine("Resultado pertenece al mes de: Noviembre\n");
                     break;
                 case 12:
-                    Console.WriteLine("Resultado pertenece al mes de: Diciembre");
+                    Console.WriteLine("Resultado pertenece al mes de: Diciembre\n");
                     break;
                 default:
-                    Console.WriteLine("La opcion no coincide con ningun mes");
+                    Console.WriteLine("La opcion no coincide con ningun mes\n");
                     break;
             }
-            
 
             resultado = b - a;
 
@@ -131,48 +170,53 @@ namespace PruebaProgramacion
             switch (resultado)
             {
                 case 1:
-                    Console.WriteLine("Resultado pertenece al dia: Lunes");
+                    Console.WriteLine("Resultado pertenece al dia: Lunes\n");
                     break;
                 case 2:
-                    Console.WriteLine("El esultado pertenece al dia: Martes");
+                    Console.WriteLine("El esultado pertenece al dia: Martes\n");
                     break;
                 case 3:
-                    Console.WriteLine("El Resultado pertenece al dia: Miercoles");
+                    Console.WriteLine("El Resultado pertenece al dia: Miercoles\n");
                     break;
                 case 4:
-                    Console.WriteLine("El Resultado pertenece al dia: Jueves");
+                    Console.WriteLine("El Resultado pertenece al dia: Jueves\n");
                     break;
                 case 5:
-                    Console.WriteLine("El Resultado pertenece al dia: Viernes");
+                    Console.WriteLine("El Resultado pertenece al dia: Viernes\n");
                     break;
                 case 6:
-                    Console.WriteLine("El Resultado pertenece al dia: Sabado");
+                    Console.WriteLine("El Resultado pertenece al dia: Sabado\n");
                     break;
                 case 7:
-                    Console.WriteLine("El Resultado pertenece al dia: Domingo");
+                    Console.WriteLine("El Resultado pertenece al dia: Domingo\n");
                     break;
                 default:
-                    Console.WriteLine("El valor no Coincide con ningun dia");
+                    Console.WriteLine("El valor no Coincide con ningun dia\n");
                     break;
-                                       
+
             }
 
             resultado = b - c;
 
             Console.WriteLine($"La diferencia entre B y C es :{resultado}\n");
-
-
+        }
+        public static void NumerosPares(int a, int c)
+        {
             Console.WriteLine("Numeros pares Entre A y C");
-
-            for (int i = a; i <= c; i++)
+            int i = 0;
+            for ( i = a; i <= c; i++)
             {
                 if (i % 2 == 0)
                 {
                     Console.WriteLine($"Los numeros pares son: {i}");
                 }
-                
+
             }
 
+            
+        }
+        public static void NumerosImpares(int c, int a)
+        {
             Console.WriteLine("\nNumeros Impares Entre C y A");
 
             for (int i = c; i >= a; i--)
@@ -183,12 +227,9 @@ namespace PruebaProgramacion
                 }
 
             }
-
-            
-            Console.ReadKey();
-
         }
+
+    }
 
         
     }
-}
