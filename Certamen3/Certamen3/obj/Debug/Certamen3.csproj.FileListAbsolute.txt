@@ -1,0 +1,8 @@
+C:\Users\Sbach\Desktop\nuevo\Certamen3\Certamen3\bin\Debug\Certamen3.exe.config
+C:\Users\Sbach\Desktop\nuevo\Certamen3\Certamen3\bin\Debug\Certamen3.exe
+C:\Users\Sbach\Desktop\nuevo\Certamen3\Certamen3\bin\Debug\Certamen3.pdb
+C:\Users\Sbach\Desktop\nuevo\Certamen3\Certamen3\obj\Debug\Certamen3.csproj.AssemblyReference.cache
+C:\Users\Sbach\Desktop\nuevo\Certamen3\Certamen3\obj\Debug\Certamen3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Sbach\Desktop\nuevo\Certamen3\Certamen3\obj\Debug\Certamen3.csproj.CoreCompileInputs.cache
+C:\Users\Sbach\Desktop\nuevo\Certamen3\Certamen3\obj\Debug\Certamen3.exe
+C:\Users\Sbach\Desktop\nuevo\Certamen3\Certamen3\obj\Debug\Certamen3.pdb
