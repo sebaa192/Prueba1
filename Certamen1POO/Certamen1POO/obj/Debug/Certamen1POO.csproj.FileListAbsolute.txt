@@ -1,0 +1,11 @@
+C:\Users\Sbach\Desktop\nuevo\Certamen1POO\Certamen1POO\bin\Debug\Certamen1POO.exe.config
+C:\Users\Sbach\Desktop\nuevo\Certamen1POO\Certamen1POO\bin\Debug\Certamen1POO.exe
+C:\Users\Sbach\Desktop\nuevo\Certamen1POO\Certamen1POO\bin\Debug\Certamen1POO.pdb
+C:\Users\Sbach\Desktop\nuevo\Certamen1POO\Certamen1POO\bin\Debug\EmpresaIPVG.dll
+C:\Users\Sbach\Desktop\nuevo\Certamen1POO\Certamen1POO\bin\Debug\EmpresaIPVG.pdb
+C:\Users\Sbach\Desktop\nuevo\Certamen1POO\Certamen1POO\obj\Debug\Certamen1POO.csproj.AssemblyReference.cache
+C:\Users\Sbach\Desktop\nuevo\Certamen1POO\Certamen1POO\obj\Debug\Certamen1POO.csproj.SuggestedBindingRedirects.cache
+C:\Users\Sbach\Desktop\nuevo\Certamen1POO\Certamen1POO\obj\Debug\Certamen1POO.csproj.CoreCompileInputs.cache
+C:\Users\Sbach\Desktop\nuevo\Certamen1POO\Certamen1POO\obj\Debug\Certamen1POO.csproj.CopyComplete
+C:\Users\Sbach\Desktop\nuevo\Certamen1POO\Certamen1POO\obj\Debug\Certamen1POO.exe
+C:\Users\Sbach\Desktop\nuevo\Certamen1POO\Certamen1POO\obj\Debug\Certamen1POO.pdb

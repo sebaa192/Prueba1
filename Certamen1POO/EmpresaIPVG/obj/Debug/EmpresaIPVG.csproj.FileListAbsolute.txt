@@ -1,0 +1,6 @@
+C:\Users\Sbach\Desktop\nuevo\Certamen1POO\EmpresaIPVG\bin\Debug\EmpresaIPVG.dll
+C:\Users\Sbach\Desktop\nuevo\Certamen1POO\EmpresaIPVG\bin\Debug\EmpresaIPVG.pdb
+C:\Users\Sbach\Desktop\nuevo\Certamen1POO\EmpresaIPVG\obj\Debug\EmpresaIPVG.csproj.AssemblyReference.cache
+C:\Users\Sbach\Desktop\nuevo\Certamen1POO\EmpresaIPVG\obj\Debug\EmpresaIPVG.csproj.CoreCompileInputs.cache
+C:\Users\Sbach\Desktop\nuevo\Certamen1POO\EmpresaIPVG\obj\Debug\EmpresaIPVG.dll
+C:\Users\Sbach\Desktop\nuevo\Certamen1POO\EmpresaIPVG\obj\Debug\EmpresaIPVG.pdb
