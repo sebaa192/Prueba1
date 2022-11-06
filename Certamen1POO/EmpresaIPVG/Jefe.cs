@@ -13,11 +13,16 @@ namespace EmpresaIPVG
 
         public Jefe()
         {
-            this.codJefe = 1;
-            this.nombre = "Jose Soto";
+            
         }
 
+        public Jefe(int codJefe, string nombre)
+        {
+            this.codJefe = codJefe;
+            this.nombre = nombre;
+        }
        
+
     }
 
 

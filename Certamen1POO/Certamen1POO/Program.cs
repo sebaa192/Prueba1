@@ -12,44 +12,52 @@ namespace Certamen1POO
     {
         static void Main(string[] args)
         {
-            Region region = new Region();
-            Region region1 = new Region(01,"Atacama");
-           
-            Sucursal sucursal = new Sucursal();
+            //CREACION CARGO
+            Cargo cargo = new Cargo();
+            cargo.idcargo = 007;
+            cargo.nombreCargo = "Auxiliar";
 
+            //CREACION REGION
+            Region region = new Region();
+            region.codigoRegion = 01;
+            region.nombreRegion = "Bio BIo";
+
+            //CREACION SUCURSAL
+            Sucursal sucursal = new Sucursal();
+            sucursal.codigoSucursal = 001;
+            sucursal.nombre = "Los Angeles";
+            string nombreRe = region.mostrarRegion(region);
+
+            //CREACION DEPARTAMENTO
             Departamento departamento = new Departamento();
 
             departamento.codigodepa = 001;
             departamento.nombredepa = "Aseo";
+            
+            //CREACION JEFE
+            Jefe jefe = new Jefe(40, "Manuel Rojas");
+            
 
-            Jefe jefe = new Jefe();
+            //CREACION EMPLEADO
+            Personal empleado = new Personal();
+            empleado.codEmpleado = 50;
+            empleado.Nombre = "Juan ";
+            empleado.Apellido = "Perez";
+            string nombreCargo = empleado.mostrarCargo(cargo);
+            string nombreJe = empleado.mostrarJefe(jefe);
+            string nombreDepto = empleado.mostrarDepartamento(departamento);
 
-            Cargo cargo = new Cargo();
 
-            Console.WriteLine("INGRESAR EMPLEADO: ");
+            Console.WriteLine("EMPLEADO AGREGADO");
             Console.WriteLine();
-            Console.Write("Ingresar el codigo del empleado: ");
+            Console.WriteLine($"Codigo Empleado: {empleado.codEmpleado}\nNombre:{empleado.Nombre}\nApellido: {empleado.Apellido}\nCargo: {nombreCargo}\nJefe: {nombreJe}\nDepartamento: {nombreDepto}");
+            
 
-            int codigo = int.Parse(Console.ReadLine());
 
-            Console.Write("Ingresar el nombre del empleado: ");
-            string nombre = Console.ReadLine();
+           
 
-            Console.Write("Ingresar el apellido del empleado: ");
-            string apellido = Console.ReadLine();
-            Console.WriteLine();
-
-            Personal persona1 = new Personal(codigo,nombre,apellido);
-
-            Console.WriteLine("DATOS DEL EMPLEADO: ");
-            Console.WriteLine("El empleado ingresado es :");
-            Console.WriteLine("Codigo Empleado: "+persona1.codEmpleado+"\nNombre: "+persona1.Nombre+"\nApellido: "+persona1.Apellido+"\nAera/Departamento: "+departamento.nombredepa+"\nJefe a cargo Departamento:"+jefe.nombre);
-            Console.WriteLine();
-            Console.WriteLine($"Sucursal {sucursal.nombre}, Ubicada en la region del {region.NombreRegion} ");
             Console.ReadLine();
 
-                        
-           
             Console.ReadKey();  
 
         }

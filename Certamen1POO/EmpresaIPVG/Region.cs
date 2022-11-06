@@ -9,20 +9,24 @@ namespace EmpresaIPVG
     public class Region
     {
         public int codigoRegion { get; set; }
-        public string NombreRegion { get; set; }
+        public string nombreRegion { get; set; }
 
         
 
         public Region()
         {
-            codigoRegion = 08;
-            NombreRegion = "Bio Bio";
+           
         }
 
-        public Region(int codRegion, string nomRegion)
+        public Region(int codRegion, string nombreRegion)
         {
             this.codigoRegion = codigoRegion;
-            NombreRegion = nomRegion;
+            this.nombreRegion = nombreRegion;
+        }
+
+        public string mostrarRegion(Region region)
+        {
+            return region.nombreRegion;
         }
     }
   

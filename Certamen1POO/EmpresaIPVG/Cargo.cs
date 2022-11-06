@@ -11,12 +11,16 @@ namespace EmpresaIPVG
         public int idcargo { get; set; }
         public string nombreCargo { get; set; }
 
+        public Cargo(int idcargo, string nombreCargo)
+        {
+
+            this.idcargo = idcargo; 
+            this.nombreCargo = nombreCargo;
+        }
         public Cargo()
         {
-            this.idcargo = 01;
-            this.nombreCargo ="Auxiliar aseo" ;
-        }
 
+        }
         
 
     }

@@ -12,10 +12,11 @@ namespace EmpresaIPVG
         public string nombredepa { get; set; }
         public Jefe jefe { get; set; }
 
-        public Departamento(int codigodepa, string nombredepa)
+        public Departamento(int codigodepa, string nombredepa, Jefe jefe)
         {
             this.codigodepa = codigodepa;
             this.nombredepa = nombredepa;
+            this.jefe = jefe;   
             
         }
 
@@ -24,12 +25,10 @@ namespace EmpresaIPVG
 
         }
 
-        public void agregarJefe(int codigJefe, string nombreJefe)
+        public void agregarJefe(Jefe jefe)
         {
-            Jefe je = new Jefe();
-            je.codJefe = codigJefe;
-            je.nombre = nombreJefe;
-            this.jefe = je;
+
+            this.jefe = jefe;
         }
     }
 }
